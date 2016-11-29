@@ -10,5 +10,5 @@ documentation: https://najibg96.github.io/NeuralNetworkSimulator/
 Screenshot:
 ![screenshot](https://github.com/najibg96/NeuralNetworkSimulator/raw/master/screenshot.png)
 
-UML class diagram
+UML class diagram for nerds and other university departments
 ![diagram](https://github.com/najibg96/NeuralNetworkSimulator/raw/master/classdiagram.png)
