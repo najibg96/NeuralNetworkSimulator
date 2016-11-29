@@ -1,6 +1,6 @@
 # Neural Network Simulator
 A good visualization of how neural networks work.
-[Class documentation](https://najibg96.github.io/NeuralNetworkSimulator/), [pdf documentation](https://github.com/najibg96/NeuralNetworkSimulator/blob/master/NeuralNetworkSimulatorDocumentation.pdf)
+[Class documentation](https://najibg96.github.io/NeuralNetworkSimulator/), [pdf documentation](https://github.com/najibg96/NeuralNetworkSimulator/raw/master/NeuralNetworkSimulatorDocumentation.pdf)
 
 ###1.: Download [NeuralNetworkSimulator.jar](https://github.com/najibg96/NeuralNetworkSimulator/blob/master/NeuralNetworkSimulator.jar?raw=true)
 
