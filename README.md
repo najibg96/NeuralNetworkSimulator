@@ -1,6 +1,6 @@
 # Neural Network Simulator
 A good visualization of how neural networks work.
-For instructions and test file credit to BME university MIT department, [AI subject](https://www.mit.bme.hu/oktatas/targyak/vimiac00).
+For instructions and test file credit to BME university of tech MIT department, [AI subject](https://www.mit.bme.hu/oktatas/targyak/vimiac00).
 
 [Class documentation](https://najibg96.github.io/NeuralNetworkSimulator/), [pdf documentation](https://github.com/najibg96/NeuralNetworkSimulator/raw/master/NeuralNetworkSimulatorDocumentation.pdf)
 
