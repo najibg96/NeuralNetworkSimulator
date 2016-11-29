@@ -27,8 +27,6 @@ public class NNSimulatorViewController extends JPanel {
     public NNSimulatorViewController() {
         super();
 
-
-
         //View controller has all objects
         network = new NeuralNetwork();
         controlPanel = new NNControlPanel();

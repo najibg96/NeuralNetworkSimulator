@@ -3,6 +3,7 @@ package neuralnetworksimulator;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
@@ -38,12 +39,8 @@ public class NNSimulatorApplication extends JFrame {
         setLocationByPlatform(true);
         simulator = new NNSimulatorViewController();
         add(simulator);
-        try {
-            /*This is not necessary for proper operation, rather foran unforgettable experience :)*/
-            setIconImage(ImageIO.read(new File("src/resources/epe.png")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        /*This is not necessary for proper operation, rather foran unforgettable experience :)*/
+        setIconImage( Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("resources/epe.png")));
         pack();
     }
 

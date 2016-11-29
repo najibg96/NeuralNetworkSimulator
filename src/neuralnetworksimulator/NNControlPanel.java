@@ -145,21 +145,11 @@ public class NNControlPanel extends JPanel {
 
         JLabel labelView = new JLabel("Switch weights/derivatives view");
 
-        try {
-            starticon = ImageIO.read(new File("src/resources/play.png"));
-            StartButton.setIcon(new ImageIcon(starticon.getScaledInstance(24,24,java.awt.Image.SCALE_SMOOTH)));
-        } catch (IOException ex) {
-        }
-        try {
-            Image stopimg = ImageIO.read(new File("src/resources/stop.png"));
-            StopButton.setIcon(new ImageIcon(stopimg.getScaledInstance(24,24,java.awt.Image.SCALE_SMOOTH)));
-        } catch (IOException ex) {
-        }
-        try {
-            pauseicon = ImageIO.read(new File("src/resources/pause.png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        starticon = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("resources/play.png"));
+        StartButton.setIcon(new ImageIcon(starticon.getScaledInstance(24,24,java.awt.Image.SCALE_SMOOTH)));
+        Image stopimg = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("resources/stop.png"));
+        StopButton.setIcon(new ImageIcon(stopimg.getScaledInstance(24,24,java.awt.Image.SCALE_SMOOTH)));
+        pauseicon = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("resources/pause.png"));
 
         ViewButton.setText("Weights");
         ResetViewButton.setText("Reset view");
